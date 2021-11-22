@@ -165,7 +165,7 @@ async def channelgroupRemover(bot:Update, msg:Message):
         )
 
 
-@app.on_message(filters.group & filters.regex("^#request (.*)"))
+@app.on_message(filters.group & filters.regex("^@admin(.*)"))
 async def requestHandler(bot:Update, msg:Message):
     groupID = str(msg.chat.id)
 
