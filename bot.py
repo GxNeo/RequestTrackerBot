@@ -95,7 +95,7 @@ async def forwardedHandler(bot:Update, msg:Message):
     return
 
 @app.on_message(filters.private & filters.command("add"))
-async def groupChannelIDHandler(bot:Update, msg:Message):
+async def groupIDChannelIDHandler(bot:Update, msg:Message):
     message = msg.text.split(" ")
     if len(message) == 3:
         _, groupID, channelID = message
