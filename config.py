@@ -10,6 +10,6 @@ class Config(object):
     API_HASH = environ.get("API_HASH", "")
     BOT_TOKEN = environ.get("BOT_TOKEN", "")
     MONGO_STR = environ.get("MONGO_STR", "")
-    CHANNELID = environ.get("CHANNELID", "")
-    GROUPID = environ.get("GROUPID", "")
+    #CHANNELID = environ.get("CHANNELID", "")
+    #GROUPID = environ.get("GROUPID", "")
 
